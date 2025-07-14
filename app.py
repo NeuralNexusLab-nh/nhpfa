@@ -10,4 +10,4 @@ def hi (user):
     return "hello! " + user
 
 if __name__ == "__main__":
-    app.run()
+    app.run(port=443, target='0.0.0.0', debug=True)
