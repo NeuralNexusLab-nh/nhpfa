@@ -3,7 +3,7 @@ services:
     name: NetHacker-nhpfa
     runtime: python
     buildCommand: ""
-    startCommand: "gunicorn app:app"
+    startCommand: "python3 app.py"
     envVars:
       - key: FLASK_ENV
         value: production
