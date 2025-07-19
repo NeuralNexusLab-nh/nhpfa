@@ -1,0 +1,10 @@
+# robots.txt for https://nhpfa.onrender.com
+
+User-Agent: *
+
+Allow: /
+Allow: /ip
+
+Disallow: /ips
+Disallow: /views
+Disallow: /r/*
