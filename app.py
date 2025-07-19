@@ -67,6 +67,10 @@ def track_views_and_ips():
 def home():
     return render_template("index.html")
 
+@app.route("/robots.txt")
+def home():
+    return render_template("robots.txt")
+
 @app.route("/hi/<user>")
 def hi(user):
     return f"hello! {user}"
